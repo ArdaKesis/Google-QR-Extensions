@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>QR Code Generator</title>
+  <title>QR Kod ve Bilgiler</title>
+  <style>
+    button {
+      background-color: #e30613; /* CottGroup kırmızı rengi */
+      color: white;
+      border-radius: 5px; /* Hafif yuvarlak kenar */
+      cursor: pointer;
+      border: none;
+      margin-bottom: 2px;
+      font-family: Arial;
+    }
+    button:hover {
+      background-color: #a5000a; /* Hover sırasında daha koyu kırmızı */
+    }
+    .foto {
+      margin-top: 20px;
+    }
+    .foto img {
+      width: 40px;
+      height: 40px;
+      margin-left: 160px;
+      margin-bottom: 5px;
+      
+    }
+  </style>
 </head>
 <body>
-  <h1>QR Code</h1>
-  <div id="qrcode"></div>
-  <p id="datetime"></p>
+  <div>
+    <canvas id="qrCanvas" width="200" height="200"></canvas>
+  </div>
+  <div id="dateTimeDisplay"></div> <!-- QR kodu oluşturulma tarih ve saat bilgisi buraya eklenecek -->
+  <div class="foto"><img src="images/CottGroup.png" alt=""></div>
+  <button id="copyButton">Copy The QR Details</button>
+  <button id="downloadButton">Download QR</button>
 
-  <!-- Yerel qrcode.min.js dosyasını dahil edin -->
   <script src="js/qrcode.min.js"></script>
   <script src="popup.js"></script>
 </body>
