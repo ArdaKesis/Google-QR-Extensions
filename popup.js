@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // chrome:// URL'leri kontrol etme
         if (url.startsWith('chrome://')) {
-            alert('chrome:// URL\'leri için QR kod oluşturulamaz.');
+            alert('QR codes cannot be generated for chrome:// URLs.');
             return;
         }
 
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (qrImage) {
             qrCanvas.replaceWith(qrImage);  // QR kod img elementini canvas yerine koyuyoruz
         } else {
-            alert('QR kod oluşturulamadı, lütfen tekrar deneyin.');
+            alert('QR code could not be generated, please try again.');
         }
 
         // QR kod oluşturulma tarih ve saatini ekrana yazdırıyoruz
@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('copyButton').addEventListener('click', function() {
             let copyText = `URL: ${url}\nTarih: ${dateTimeString}`;
             navigator.clipboard.writeText(copyText).then(function() {
-                alert('URL ve Tarih/Saat bilgileri başarıyla kopyalandı!');
+                alert('URL and Date/Time information have been stored successfully.');
             }, function() {
-                alert('Bilgiler kopyalanamadı.');
+                alert('The information could not be copied.');
             });
         });
 
