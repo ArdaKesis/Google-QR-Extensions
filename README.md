@@ -15,7 +15,8 @@ This project is a browser extension that generates a QR code for any website URL
 
 Below are a few screenshots of the application:
 
-![Screenshot](https://github.com/user-attachments/assets/fc194d39-9ca1-413b-a24b-14d6708ffc2b)
+![Screeenshot](https://github.com/user-attachments/assets/2a7376ca-8026-49eb-9626-f12752ab5c9d)
+
 
 
 
