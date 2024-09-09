@@ -32,25 +32,25 @@ Below are a few screenshots of the application:
 
 ##   Installation and Usage
 
-1. *Clone the Repository*:
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/qr-code-generator.git
 
-2. *Navigate to the Directory*:
+2. **Navigate to the Directory**:
    ```bash
    cd qr-code-generator
 
 3. **Load the Extension in Chrome/Edge**:
 
-**Open your browser’s extensions page**:
+-*Open your browser’s extensions page*:
 
--**For Chrome**: chrome://extensions
+-*For Chrome**: "chrome://extensions"
 
--**For Edge**: edge://extensions
+-*For Edge**: "edge://extensions"
 
--**Enable Developer Mode**.
+-*Enable Developer Mode**.
 
--**Click Load unpacked and select the qr-code-generator folder**.
+-*Click Load unpacked and select the qr-code-generator folder**.
 
 4.  **Using the Extension**:
 
