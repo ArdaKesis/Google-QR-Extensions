@@ -18,9 +18,13 @@ Below are a few screenshots of the application:
 ![Screenshot](https://github.com/user-attachments/assets/fc194d39-9ca1-413b-a24b-14d6708ffc2b)
 
 
+
+
 *Screenshot 1: The main interface showing the generated QR code and date-time.*
 
 ![Date-Time_Screenshot](https://github.com/user-attachments/assets/a96385a9-8a56-4689-98b4-fab3395e3f0b)
+
+
 
 
 *Screenshot 2: The options to copy QR details or download the QR code.*
