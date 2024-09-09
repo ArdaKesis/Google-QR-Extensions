@@ -15,40 +15,33 @@ This project generates a QR code for a website's URL when you click on it and di
 ```bash
 git clone https://github.com/yourusername/qr-code-generator.git
 cd qr-code-generator
-
-##  Load the Project into the Browser:
--Open Chrome Extensions or in Microsoft Edge, go to edge://extensions/.
--Enable Developer Mode.
--Click Load unpacked and select the project folder.
-##  Usage
--Go to any website in your browser.
--Click the extension icon.
--A QR code will be generated for the website's URL.
--Click the Copy The QR Details button to copy the URL, date, and time information.
--Click the Download QR button to download the QR code to your computer.
-
-## Screeenshots
+2. Load the Project into the Browser:
+Open Chrome Extensions or in Microsoft Edge, go to edge://extensions/.
+Enable Developer Mode.
+Click Load unpacked and select the project folder.
+Usage
+Go to any website in your browser.
+Click the extension icon.
+A QR code will be generated for the website's URL.
+Click the Copy The QR Details button to copy the URL, date, and time information.
+Click the Download QR button to download the QR code to your computer.
+Screenshots
 Below are some screenshots of the application:
 
--##  Main Screen:
-![Screenshot](https://github.com/user-attachments/assets/5f55ba01-2e8d-4b47-a03d-054133aefd3f)
+Main Screen:
+![Screenshot](https://github.com/user-attachments/assets/d1fb594d-d406-48cd-a652-76b6bd1d2c23)
 
--##  QR Code Creation Time:
-![Date-Time_Screenshot](https://github.com/user-attachments/assets/8fe3c0e3-0a42-4914-befe-ef6aba0c87bb)
+QR Code Creation Time:
+![Date-Time_Screenshot](https://github.com/user-attachments/assets/ab365fd3-c0cc-4d1e-b262-31a6a83a53d0)
 
-###Development
+Development
 If you'd like to contribute to this project, follow these steps:
 
 Clone the repository:
 
-    ```bash
-    git clone https://github.com/yourusername/qr-code-generator.git
+bash
 
--Make your changes.
--Submit a Pull Request.
+git clone https://github.com/yourusername/qr-code-generator.git
 
-Contact
-If you have any questions about this project, feel free to reach out to me at email@example.com.
-
-
-This README is ready for you to use. Just replace the placeholder email and screenshot links with your own!
+Make your changes.
+Submit a Pull Request.
