@@ -54,7 +54,8 @@ Below are a few screenshots of the application:
 
 4.  **Using the Extension**:
 
--**Click the extension icon in the browser toolbar**.
+-Click the extension icon in the browser toolbar.
+
 -A QR code for the current URL will be generated, along with the date and time it was created.
 
 -Use the Copy The QR Details button to copy the URL, date, and time.
