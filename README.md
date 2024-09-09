@@ -29,39 +29,59 @@ Below are a few screenshots of the application:
 
 *Screenshot 2: The options to copy QR details or download the QR code.*
 
-## Installation and Usage
+
+Installation and Usage
 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/qr-code-generator.git
-Navigate to the Directory:
 
-bash
-Kodu kopyala
-cd qr-code-generator
-Load the Extension in Chrome/Edge:
+2. **Navigate to the Directory**:
+   ```bash
+   cd qr-code-generator
 
-Open your browser’s extensions page:
-For Chrome: chrome://extensions
-For Edge: edge://extensions
-Enable Developer Mode.
-Click Load unpacked and select the qr-code-generator folder.
-Using the Extension:
+3. **Load the Extension in Chrome/Edge**:
 
-Click the extension icon in the browser toolbar.
-A QR code for the current URL will be generated, along with the date and time it was created.
-Use the Copy The QR Details button to copy the URL, date, and time.
-Use the Download QR button to download the QR code as a PNG file.
-Project Structure
-popup.html: The main HTML file for the extension’s popup window.
-popup.js: JavaScript file that handles QR code generation, date display, and button actions.
-qrcode.min.js: QRCode.js library for generating the QR codes.
-styles.css: Contains the CSS for styling the popup window and buttons.
-Features
-QR Code Generation: Instantly creates a QR code for the current page's URL.
-Date and Time Display: Shows the exact time the QR code was generated.
-Clipboard Copying: Allows copying of the URL, date, and time details.
-QR Code Download: Lets users download the generated QR code as a PNG image.
-Development
-UI Enhancements: Planned improvements to the user interface for better usability.
-Additional Features: Future versions may include more customization options for QR code generation.
+**Open your browser’s extensions page**:
+
+-**For Chrome**: chrome://extensions
+
+-**For Edge**: edge://extensions
+
+-**Enable Developer Mode**.
+
+-**Click Load unpacked and select the qr-code-generator folder**.
+
+4.  **Using the Extension**:
+
+-**Click the extension icon in the browser toolbar**.
+-A QR code for the current URL will be generated, along with the date and time it was created.
+
+-Use the Copy The QR Details button to copy the URL, date, and time.
+
+-Use the Download QR button to download the QR code as a PNG file.
+
+
+##   Project Structure
+-**popup.html**: The main HTML file for the extension’s popup window.
+
+-**popup.js**: JavaScript file that handles QR code generation, date display, and button actions.
+
+-**qrcode.min.js**: QRCode.js library for generating the QR codes.
+
+-**styles.css**: Contains the CSS for styling the popup window and buttons.
+
+##   Features
+
+-**QR Code Generation**: Instantly creates a QR code for the current page's URL.
+
+-**Date and Time Display**: Shows the exact time the QR code was generated.
+
+-**Clipboard Copying**: Allows copying of the URL, date, and time details.
+
+-**QR Code Download**: Lets users download the generated QR code as a PNG image.
+
+##   Development
+-**UI Enhancements**: Planned improvements to the user interface for better usability.
+
+-**Additional Features**: Future versions may include more customization options for QR code generation.
