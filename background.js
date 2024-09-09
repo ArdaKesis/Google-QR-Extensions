@@ -21,7 +21,7 @@ chrome.runtime.onInstalled.addListener(function() {
           args: [url]  // URL'yi argüman olarak gönderiyoruz
         });
       });
-    }
+    }     
   });
   
   // Aktif sekmede çalışacak fonksiyon (URL'yi alert ile gösterecek)
