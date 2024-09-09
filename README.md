@@ -30,13 +30,13 @@ Below are a few screenshots of the application:
 *Screenshot 2: The options to copy QR details or download the QR code.*
 
 
-Installation and Usage
+##   Installation and Usage
 
-1. **Clone the Repository**:
+1. *Clone the Repository*:
    ```bash
    git clone https://github.com/yourusername/qr-code-generator.git
 
-2. **Navigate to the Directory**:
+2. *Navigate to the Directory*:
    ```bash
    cd qr-code-generator
 
